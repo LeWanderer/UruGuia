@@ -1,4 +1,4 @@
-#categoria-content {
+#por-visitar-content {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -7,25 +7,22 @@
     background-color: rgba(159, 186, 236, 0.568);
 }
 
-#titulo-categoria {
-    font-size: 160%;
-    font-weight: bold;
-    margin: 1vw;
-    margin-bottom: 0px;
-}
-
-#p-categoria {
+#p-por-visitar {
     display: flex;
-    flex-direction: column;
-
+    width: 100%;
 }
-#p-categoria-p {
+
+h2 {
+    padding-left: 0px;
+}
+
+#info-lugar-por-visitar {
     margin-left: 10vw;
+    width: 70%;
 }
 
-#boton-categoria {
+#boton-por-visitar {
     align-self: flex-end;
-    margin: 0px 10vw;
+    margin-right: 10vw;
 }
-
 
